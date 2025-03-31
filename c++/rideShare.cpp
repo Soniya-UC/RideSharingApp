@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <iomanip>
 
 using namespace std;
 
@@ -22,8 +21,7 @@ public:
         cout << "Ride ID: " << rideID << endl
              << "Pickup Location: " << pickupLocation << endl
              << "Dropoff Location: " << dropoffLocation << endl
-             << "Distance: " << distance << " miles" << endl
-             << "Fare: $" << fare << endl;
+             << "Distance: " << distance << " miles" << endl;
     }
 
     float getFare() const { return fare; }
@@ -132,7 +130,7 @@ int main() {
     Driver driver2(2, "Padam", 4.9);
 
     Rider rider1(1, "Jack");
-    Rider rider2(2, "Jill");
+
 
     int rideID;
     string pickupLocation, dropoffLocation;
@@ -144,7 +142,7 @@ int main() {
     vector<Ride*> rideList;
 
     // Request rides dynamically for rider 1
-    cout << "Rider 1 is ready to request rides!" << endl;
+    cout << "Jack is ready to request rides!" << endl;
     do {
         // Input for dynamic ride creation
         cout << "Enter Ride Type (1 for Standard, 2 for Premium): ";
@@ -175,30 +173,24 @@ int main() {
             continue;
         }
 
-        // Calculate fare for the ride
         newRide->calculateFare();
 
-        // Add the ride to the list of rides
         rideList.push_back(newRide);
 
-        // Ask if the rider wants to request another ride
         cout << "Would you like to request another ride for this rider? (y/n): ";
         cin >> addAnotherRide;
         cin.ignore();
 
     } while (addAnotherRide == 'y' || addAnotherRide == 'Y');
 
-    // View all requested rides for Rider 1
     rider1.viewRides();
 
-    // Demonstrate polymorphism by calling fare() and rideDetails() on each ride in the list
-    cout << "\nDemonstrating polymorphism for Rider 1's rides:\n";
+    cout << "\nShowing polymorphism for Jack's rides:\n";
     for (const auto& ride : rideList) {
         ride->rideDetails();   // Polymorphic call
         cout << "Fare: $" << ride->getFare() << endl << endl;
     }
 
-    // Clean up allocated memory
     for (auto& ride : rideList) {
         delete ride;
     }
