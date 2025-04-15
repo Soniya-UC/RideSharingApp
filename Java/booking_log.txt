@@ -1,0 +1,13 @@
+Completed: Booking ID: 101, From: home, To: airport, Distance: 20.0 miles
+Completed: Booking ID: 103, From: motel, To: office, Distance: 15.0 miles
+Completed: Booking ID: 102, From: airport, To: motel, Distance: 2.0 miles
+Completed: Booking ID: 104, From: office, To: kfc, Distance: 4.0 miles
+Completed: Booking ID: 101, From: home, To: airport, Distance: 20.0 miles
+Completed: Booking ID: 103, From: office, To: restaurant, Distance: 2.0 miles
+Completed: Booking ID: 104, From: home, To: theatre, Distance: 8.0 miles
+Completed: Booking ID: 102, From: mall, To: home, Distance: 10.0 miles
+Completed: Booking ID: 103, From: Office, To: Restaurant, Distance: 5.0 miles
+Completed: Booking ID: 102, From: Mall, To: Home, Distance: 10.0 miles
+Completed: Booking ID: 101, From: Home, To: Airport, Distance: 20.0 miles
+Completed: Booking ID: 104, From: home, To: Theatre, Distance: 3.0 miles
+Completed: Booking ID: 105, From: University, To: downtown, Distance: 21.0 miles

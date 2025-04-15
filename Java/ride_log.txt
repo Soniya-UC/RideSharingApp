@@ -1,0 +1,7 @@
+Worker-2 completed: Ride ID: 102, Pickup: office, Dropoff: home, Distance: 15.0 miles
+Worker-1 completed: Ride ID: 101, Pickup: university, Dropoff: airport, Distance: 10.0 miles
+Completed: Ride ID: 102, Pickup: mall, Dropoff: home, Distance: 15.0 miles
+Completed: Ride ID: 103, Pickup: school, Dropoff: home, Distance: 5.0 miles
+Completed: Ride ID: 101, Pickup: home, Dropoff: office, Distance: 10.0 miles
+Completed: Ride ID: 104, Pickup: station, Dropoff: downtown, Distance: 20.0 miles
+Completed: Ride ID: 105, Pickup: airport, Dropoff: home, Distance: 25.0 miles

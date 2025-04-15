@@ -1,0 +1,5 @@
+Completed: Ride ID: 102, Pickup: University, Dropoff: home, Distance: 10.00 miles
+Completed: Ride ID: 101, Pickup: home, Dropoff: motel, Distance: 16.00 miles
+Completed: Ride ID: 103, Pickup: Office, Dropoff: Restaurant, Distance: 11.00 miles
+Completed: Ride ID: 105, Pickup: theatre, Dropoff: airport, Distance: 14.00 miles
+Completed: Ride ID: 104, Pickup: central park, Dropoff: station, Distance: 8.00 miles
